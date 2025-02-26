@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Greener Biophore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="register">
+    <header>
+        <h1>Register for Greener Biophore</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="poster.html">Poster</a></li>
+            <li><a href="join.html">Join Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="https://formspree.io/f/mrbewwda" method="POST" data-formspree="true">
+            <label>Name:</label>
+            <input type="text" name="name" required>
+
+            <label>Email:</label>
+            <input type="email" name="email" required>
+
+            <!-- Add the Allergy Input Field -->
+            <label for="allergies">Food Allergies (Optional):</label>
+            <input type="text" name="allergies" id="allergies" placeholder="Enter allergies (if any)">
+
+            <button type="submit">Register</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Greener Biophore</p>
+    </footer>
+</body>
+</html>
+

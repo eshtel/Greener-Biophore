@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #193551; /* Dark blue text */
+    background-color: #FCFCFC; /* White background */
+}
+
+/* Header Styling */
+header {
+    background-color: #CDE78D; /* Green title background */
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #193551; /* Dark blue text */
+}
+
+/* Navigation Menu */
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #193551; /* Dark blue text */
+    border-radius: 5px;
+}
+
+/* Different Background Colors for Tabs */
+.about a { background-color: #EDACB1; }  /* Soft pink */
+.register a { background-color: #CED78D; } /* Green */
+.poster a { background-color: #E7CFE8; }  /* Lavender */
+.join a { background-color: #5C8180; }  /* Teal */
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+/* Buttons (Like "Register") */
+button {
+    background-color: #CDE78D; /* Green */
+    color: #193551; /* Dark blue text */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #AFCF70; /* Slightly darker green */
+}
+
+/* Footer */
+footer {
+    background-color: #CDE78D; /* Green */
+    color: #193551;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#countdown-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #E7CFE8; /* Soft lavender */
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#countdown {
+    font-size: 24px;
+    font-weight: bold;
+    color: #193551; /* Dark blue text */
+    padding: 10px;
+}
