@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+        <!-- Navigation bar at the top -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="program.html">Program</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,34 +20,66 @@
         <h1>Register for Greener Biophore</h1>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="poster.html">Poster</a></li>
-            <li><a href="join.html">Join Us</a></li>
-        </ul>
-    </nav>
+
 
     <main>
         <form action="https://formspree.io/f/mrbewwda" method="POST" data-formspree="true">
-            <label>Name:</label>
-            <input type="text" name="name" required>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+    
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+    
+            <div>
+                <label for="department">Department:</label>
+                <select name="Department" id="department" required>
+                    <option value="" disabled selected>Select your department</option>
+                    <option value="DEE">DEE</option>
+                    <option value="DMF">DMF</option>
+                    <option value="DBMV">DBMV</option>
+                </select>
+            </div>
+    
+            <div>
+                <label for="position">Position:</label>
+                <select name="Position" id="position" required>
+                    <option value="" disabled selected>Select your position</option>
+                    <option value="Undergraduate student">Undergraduate student</option>
+                    <option value="PhD student">PhD student</option>
+                    <option value="Post doc">Post doc</option>
+                    <option value="Professor">Professor</option>
+                    <option value="Senior scientist">Senior scientist</option>
+                    <option value="PAT">PAT</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+    
+            <div>
+                <label for="Age">Age:</label>
+                <input type="text" name="Age" id="Age" required>
+            </div>
 
-            <label>Email:</label>
-            <input type="email" name="email" required>
-
-            <!-- Add the Allergy Input Field -->
-            <label for="allergies">Food Allergies (Optional):</label>
-            <input type="text" name="allergies" id="allergies" placeholder="Enter allergies (if any)">
-
-            <button type="submit">Register</button>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="text" name="gender" id="gender" required>
+            </div>
+            <div>
+                <label for="allergies">Food Allergies (Optional):</label>
+                <input type="text" name="allergies" id="allergies" placeholder="Enter allergies (if any)">
+            </div>
+    
+            <div>
+                <button type="submit">Register</button>
+            </div>
         </form>
     </main>
+    
 
-    <footer>
-        <p>&copy; 2025 Greener Biophore</p>
-    </footer>
+  
 </body>
 </html>
 

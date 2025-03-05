@@ -46,7 +46,7 @@ nav a {
 .about a { background-color: #EDACB1; }  /* Soft pink */
 .register a { background-color: #CED78D; } /* Green */
 .poster a { background-color: #E7CFE8; }  /* Lavender */
-.join a { background-color: #5C8180; }  /* Teal */
+.program a { background-color: #5C8180; }  /* Teal */
 
 /* Hover Effects for Each Tab */
 nav a:hover {
@@ -74,14 +74,51 @@ button:hover {
     background-color: #AFCF70; /* Slightly darker green */
 }
 
-/* Footer */
-footer {
-    background-color: #CDE78D; /* Green */
-    color: #193551;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
+form {
+    font-size: 18px; /* Increases the text size for labels */
+}
+
+input, select {
+    font-size: 16px; /* Increases the text size inside inputs and dropdowns */
+    padding: 8px; /* Makes the fields more spacious */
+    width: 30%; /* Ensures inputs take full width */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%; /* Adjust width as needed */
+    margin: 0 auto; /* Centers the form */
+    font-size: 18px;
+}
+
+form div {
+    display: flex;
+    align-items: center; /* Aligns items in a straight line */
+    margin-bottom: 10px;
+}
+
+label {
+    width: 200px; /* Adjust label width for consistency */
+    text-align: right;
+    margin-right: 10px;
+}
+
+input, select {
+    flex-grow: 1; /* Makes inputs and selects take the remaining space */
+    font-size: 16px;
+    padding: 8px;
     width: 100%;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #c7d68f; /* Match button color to your design */
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
 }
 
 
@@ -98,4 +135,17 @@ footer {
     font-weight: bold;
     color: #193551; /* Dark blue text */
     padding: 10px;
+}
+
+
+/* Ensure the image is centered and responsive */
+#image-section {
+    text-align: center;
+    margin: 20px 0; /* Space around the image */
+}
+
+#image-section img {
+    width: 100%; /* Make it fill the page width */
+    max-height: 500px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image looks good */
 }
