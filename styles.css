@@ -145,7 +145,7 @@ button {
 }
 
 #image-section img {
-    width: 100%; /* Make it fill the page width */
+    width: 50%; /* Make it fill the page width */
     max-height: 500px; /* Adjust height as needed */
     object-fit: cover; /* Ensures the image looks good */
 }
