@@ -4,17 +4,17 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    color: #193551; /* Dark blue text */
+    color: #5f7754; /* Deep Forest Green text */
     background-color: #FCFCFC; /* White background */
 }
 
 /* Header Styling */
 header {
-    background-color: #CDE78D; /* Green title background */
+    background-color: #b2b999; /* Soft Sage Green title background */
     padding: 20px;
     font-size: 24px;
     font-weight: bold;
-    color: #193551; /* Dark blue text */
+    color: #5f7754; /* Deep Forest Green text */
 }
 
 /* Navigation Menu */
@@ -37,20 +37,20 @@ nav a {
     padding: 12px 20px;
     font-size: 18px;
     font-weight: bold;
-    color: #193551; /* Dark blue text */
+    color: #5f7754; /* Deep Forest Green text */
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Different Background Colors for Tabs */
-.about a { background-color: #EDACB1; }  /* Soft pink */
-.register a { background-color: #CED78D; } /* Green */
-.poster a { background-color: #E7CFE8; }  /* Lavender */
-.program a { background-color: #5C8180; }  /* Teal */
+.about a { background-color: #a79da9; }  /* Muted Lavender */
+.register a { background-color: #b2b999; } /* Soft Sage Green */
+.poster a { background-color: #5f7754; }  /* Deep Forest Green */
+.program a { background-color: #c28636; }  /* Warm Ochre */
 
 /* Hover Effects for Each Tab */
 nav a:hover {
-    background-color: #5C8180; /* Teal color on hover */
+    background-color: #c28636; /* Warm Ochre on hover */
     color: white; /* Change text color to white on hover */
 }
 
@@ -61,8 +61,8 @@ main {
 
 /* Buttons (Like "Register") */
 button {
-    background-color: #CDE78D; /* Green */
-    color: #193551; /* Dark blue text */
+    background-color: #d4b446; /* Golden Yellow */
+    color: #5f7754; /* Deep Forest Green text */
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
@@ -71,41 +71,41 @@ button {
 }
 
 button:hover {
-    background-color: #AFCF70; /* Slightly darker green */
+    background-color: #c28636; /* Warm Ochre */
 }
 
 form {
-    font-size: 18px; /* Increases the text size for labels */
+    font-size: 18px;
 }
 
 input, select {
-    font-size: 16px; /* Increases the text size inside inputs and dropdowns */
-    padding: 8px; /* Makes the fields more spacious */
-    width: 30%; /* Ensures inputs take full width */
+    font-size: 16px;
+    padding: 8px;
+    width: 30%;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    width: 50%; /* Adjust width as needed */
-    margin: 0 auto; /* Centers the form */
+    width: 50%;
+    margin: 0 auto;
     font-size: 18px;
 }
 
 form div {
     display: flex;
-    align-items: center; /* Aligns items in a straight line */
+    align-items: center;
     margin-bottom: 10px;
 }
 
 label {
-    width: 200px; /* Adjust label width for consistency */
+    width: 200px;
     text-align: right;
     margin-right: 10px;
 }
 
 input, select {
-    flex-grow: 1; /* Makes inputs and selects take the remaining space */
+    flex-grow: 1;
     font-size: 16px;
     padding: 8px;
     width: 100%;
@@ -114,38 +114,37 @@ input, select {
 button {
     font-size: 18px;
     padding: 10px 15px;
-    background-color: #c7d68f; /* Match button color to your design */
+    background-color: #b2b999; /* Soft Sage Green */
     border: none;
     cursor: pointer;
     display: block;
     margin: 10px auto;
 }
 
-
 #countdown-section {
     margin-top: 30px;
     padding: 20px;
-    background-color: #E7CFE8; /* Soft lavender */
+    background-color: #a79da9; /* Muted Lavender */
     border-radius: 10px;
     display: inline-block;
+    color: white; /* Set text color to white */
 }
 
 #countdown {
     font-size: 24px;
     font-weight: bold;
-    color: #193551; /* Dark blue text */
+    color: white; /* Set countdown text color to white */
     padding: 10px;
 }
-
 
 /* Ensure the image is centered and responsive */
 #image-section {
     text-align: center;
-    margin: 20px 0; /* Space around the image */
+    margin: 20px 0;
 }
 
 #image-section img {
-    width: 50%; /* Make it fill the page width */
-    max-height: 500px; /* Adjust height as needed */
-    object-fit: cover; /* Ensures the image looks good */
+    width: 50%; /* Make the image smaller */
+    max-height: 300px; /* Adjust height as needed */
+    object-fit: cover;
 }
