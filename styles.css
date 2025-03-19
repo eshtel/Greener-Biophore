@@ -15,6 +15,14 @@ header {
     font-size: 24px;
     font-weight: bold;
     color: #5f7754; /* Deep Forest Green text */
+<<<<<<< HEAD
+}
+
+.small-text {
+    font-size: 20px; /* Adjust the size as needed */
+    font-weight: normal; /* Makes it lighter if needed */
+=======
+>>>>>>> 315c8019dabe4c7f6a72468c7229d713eb2fb661
 }
 
 /* Navigation Menu */
@@ -147,4 +155,36 @@ button {
     width: 50%; /* Make the image smaller */
     max-height: 300px; /* Adjust height as needed */
     object-fit: cover;
+<<<<<<< HEAD
 }
+
+/* Top Banner Styling */
+#top-banner {
+    background-color: #b2b999; /* Same as the header */
+    text-align: center;
+    padding: 10px;
+}
+
+.small-logo {
+    width: 80px; /* Adjust size as needed */
+    height: auto;
+    margin: 0 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #b2b999; /* Same color as the banner */
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+=======
+>>>>>>> 315c8019dabe4c7f6a72468c7229d713eb2fb661
+}
+
+.footer-logo {
+    height: 10px; /* Ensures both logos have the same height */
+    width: auto; /* Maintains aspect ratio */
+    max-width: 150px; /* Prevents very wide images */
+    object-fit: contain; /* Ensures they scale properly */
+}
+

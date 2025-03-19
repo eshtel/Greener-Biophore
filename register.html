@@ -4,6 +4,7 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="values.html">Values</a></li>
                 <li><a href="program.html">Program</a></li>
                 <li><a href="register.html">Register</a></li>
             </ul>
@@ -18,9 +19,8 @@
 <body class="register">
     <header>
         <h1>Register for Greener Biophore</h1>
+        <p class="small-text">5th of June 2025 - Biophore</p>
     </header>
-
-
 
     <main>
         <form action="https://formspree.io/f/mrbewwda" method="POST" data-formspree="true">
@@ -32,6 +32,25 @@
             <div>
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email" required>
+            </div>
+
+            <div>
+                <label for="Join">Register:</label>
+                <select name="Join for" id="join" required>
+                    <option value="" disabled selected>Select</option>
+                    <option value="Whole day : Talks and workshop">Whole day : Talks and workshop</option>
+                    <option value="Half day: Talks only (morning)">Half day: Talks only (morning)</option>
+                    <option value="Half day: Workshop only (afternoon)">Half day: Workshop only (afternoon)</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="Apero">Apéro:</label>
+                <select name="Join for" id="join" required>
+                    <option value="" disabled selected>Select</option>
+                    <option value="Apero">I will join for the apéro!</option>
+                    <option value="Half day: Talks only (morning)">I will not join for the apéro</option>
+                </select>
             </div>
     
             <div>
@@ -84,6 +103,12 @@
         </section>
 
 
+
+        <footer>
+            <img src="logos.png" alt="Logo" id="footer-logo">
+        </footer>
+
+        
   
 </body>
 </html>
