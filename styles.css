@@ -5,24 +5,16 @@ body {
     padding: 0;
     text-align: center;
     color: #5f7754; /* Deep Forest Green text */
-    background-color: #FCFCFC; /* White background */
+    background-color: #D7DCCC; /* White background */
 }
 
 /* Header Styling */
 header {
-    background-color: #b2b999; /* Soft Sage Green title background */
+    background-color: #D7DCCC; /* Soft Sage Green title background */
     padding: 20px;
     font-size: 24px;
     font-weight: bold;
     color: #5f7754; /* Deep Forest Green text */
-<<<<<<< HEAD
-}
-
-.small-text {
-    font-size: 20px; /* Adjust the size as needed */
-    font-weight: normal; /* Makes it lighter if needed */
-=======
->>>>>>> 315c8019dabe4c7f6a72468c7229d713eb2fb661
 }
 
 /* Navigation Menu */
@@ -50,15 +42,9 @@ nav a {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Different Background Colors for Tabs */
-.about a { background-color: #a79da9; }  /* Muted Lavender */
-.register a { background-color: #b2b999; } /* Soft Sage Green */
-.poster a { background-color: #5f7754; }  /* Deep Forest Green */
-.program a { background-color: #c28636; }  /* Warm Ochre */
-
 /* Hover Effects for Each Tab */
 nav a:hover {
-    background-color: #c28636; /* Warm Ochre on hover */
+    background-color: #5f7754; /* Warm Ochre on hover */
     color: white; /* Change text color to white on hover */
 }
 
@@ -155,36 +141,110 @@ button {
     width: 50%; /* Make the image smaller */
     max-height: 300px; /* Adjust height as needed */
     object-fit: cover;
-<<<<<<< HEAD
 }
 
-/* Top Banner Styling */
-#top-banner {
-    background-color: #b2b999; /* Same as the header */
-    text-align: center;
-    padding: 10px;
+
+body {
+    background-image: url('Biophore.png'); /* Adjust the path if necessary */
+    background-size: cover; /* Makes sure the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Ensures the full height of the viewport */
+    margin: 0;
 }
 
-.small-logo {
-    width: 80px; /* Adjust size as needed */
-    height: auto;
-    margin: 0 10px;
-}
-
-/* Footer Styling */
 footer {
-    background-color: #b2b999; /* Same color as the banner */
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-=======
->>>>>>> 315c8019dabe4c7f6a72468c7229d713eb2fb661
+    background-color: #D7DCCC; /* Light gray background */
+    padding: 20px; /* Add space inside the banner */
+    text-align: center; /* Center the logo */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
 }
 
-.footer-logo {
-    height: 10px; /* Ensures both logos have the same height */
-    width: auto; /* Maintains aspect ratio */
-    max-width: 150px; /* Prevents very wide images */
-    object-fit: contain; /* Ensures they scale properly */
+#footer-logo {
+    width: 500px; /* Adjust the logo size */
 }
 
+
+.content-box {
+    background-color: #a79da9; 
+    color: white; 
+    font-size: 18px;
+    padding: 20px; /* Adds space inside the box */
+    border-radius: 10px; /* Rounds the corners */
+    margin: 20px auto; /* Centers the box and adds space around */
+    max-width: 700px; /* Limits the width for better readability */
+    text-align: center; /* Centers the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+
+.program-box {
+    background-color: #F1E8F1; /* Light grayish-purple background */
+    color: black; /* White text */
+    font-size: 18px;
+    padding: 20px; /* Adds space inside the box */
+    border-radius: 10px; /* Rounds the corners */
+    margin: 20px auto; /* Centers the box and adds space around */
+    max-width: 600px; /* Limits width for better readability */
+    text-align: center; /* Centers text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+
+.form-container {
+    background-color: #F1E8F1; /* Light gray background color */
+    padding: 40px; /* Add padding inside the container */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    max-width: 600px; /* Set a max width */
+    margin: 40px auto; /* Center the container horizontally and add vertical spacing */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+input, select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #4CAF50; /* Green background for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c28636; /* Darker green on hover */
+}
+
+
+/* Register Button in Navigation Styling */
+.register-link {
+    background-color: #c28636; /* Green background for the Register link */
+    color: white; /* White text */
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effects for Register Button */
+.register-link:hover {
+    background-color: #c28636; /* Darker green on hover */
+    color: white; /* Ensure text remains white on hover */
+}

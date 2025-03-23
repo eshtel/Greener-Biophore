@@ -3,12 +3,13 @@
         <!-- Navigation bar at the top -->
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="values.html">Values</a></li>
-                <li><a href="program.html">Program</a></li>
-                <li><a href="register.html">Register</a></li>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="info.html">Info</a></li>
+               <li><a href="register.html" class="register-link">Register</a></li>
+               <li><a href="program.html">Program</a></li>
             </ul>
-        </nav>
+         </nav>
+         
     
 <head>
     <meta charset="UTF-8">
@@ -16,6 +17,7 @@
     <title>Register - Greener Biophore</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body class="register">
     <header>
         <h1>Register for Greener Biophore</h1>
@@ -23,80 +25,85 @@
     </header>
 
     <main>
-        <form action="https://formspree.io/f/mrbewwda" method="POST" data-formspree="true">
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" name="name" id="name" required>
-            </div>
-    
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required>
-            </div>
+        <!-- Background container around the form -->
+        <div class="form-container">
+            <form action="https://formspree.io/f/mrbewwda" method="POST" data-formspree="true">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
 
-            <div>
-                <label for="Join">Register:</label>
-                <select name="Join for" id="join" required>
-                    <option value="" disabled selected>Select</option>
-                    <option value="Whole day : Talks and workshop">Whole day : Talks and workshop</option>
-                    <option value="Half day: Talks only (morning)">Half day: Talks only (morning)</option>
-                    <option value="Half day: Workshop only (afternoon)">Half day: Workshop only (afternoon)</option>
-                </select>
-            </div>
+                <div>
+                    <label for="Join">Register:</label>
+                    <select name="Join for" id="join" required>
+                        <option value="" disabled selected>Select</option>
+                        <option value="Whole day : Talks and workshop">Whole day : Talks and workshop</option>
+                        <option value="Half day: Talks only (morning)">Half day: Talks only (morning)</option>
+                        <option value="Half day: Workshop only (afternoon)">Half day: Workshop only (afternoon)</option>
+                    </select>
+                </div>
 
-            <div>
-                <label for="Apero">Apéro:</label>
-                <select name="Join for" id="join" required>
-                    <option value="" disabled selected>Select</option>
-                    <option value="Apero">I will join for the apéro!</option>
-                    <option value="Half day: Talks only (morning)">I will not join for the apéro</option>
-                </select>
-            </div>
-    
-            <div>
-                <label for="department">Department:</label>
-                <select name="Department" id="department" required>
-                    <option value="" disabled selected>Select your department</option>
-                    <option value="DEE">DEE</option>
-                    <option value="DMF">DMF</option>
-                    <option value="DBMV">DBMV</option>
-                </select>
-            </div>
-    
-            <div>
-                <label for="position">Position:</label>
-                <select name="Position" id="position" required>
-                    <option value="" disabled selected>Select your position</option>
-                    <option value="Undergraduate student">Undergraduate student</option>
-                    <option value="PhD student">PhD student</option>
-                    <option value="Post doc">Post doc</option>
-                    <option value="Professor">Professor</option>
-                    <option value="Senior scientist">Senior scientist</option>
-                    <option value="PAT">PAT</option>
-                    <option value="Other">Other</option>
-                </select>
-            </div>
-    
-            <div>
-                <label for="Age">Age:</label>
-                <input type="text" name="Age" id="Age" required>
-            </div>
+                <div>
+                    <label for="Apero">Apéro:</label>
+                    <select name="Join for" id="join" required>
+                        <option value="" disabled selected>Select</option>
+                        <option value="Apero">I will join for the apéro!</option>
+                        <option value="Half day: Talks only (morning)">I will not join for the apéro</option>
+                    </select>
+                </div>
 
-            <div>
-                <label for="gender">Gender:</label>
-                <input type="text" name="gender" id="gender" required>
-            </div>
-            <div>
-                <label for="allergies">Food Allergies (Optional):</label>
-                <input type="text" name="allergies" id="allergies" placeholder="Enter allergies (if any)">
-            </div>
-    
-            <div>
-                <button type="submit">Register</button>
-            </div>
-        </form>
+                <div>
+                    <label for="department">Department:</label>
+                    <select name="Department" id="department" required>
+                        <option value="" disabled selected>Select your department</option>
+                        <option value="DEE">DEE</option>
+                        <option value="DMF">DMF</option>
+                        <option value="DBMV">DBMV</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="position">Position:</label>
+                    <select name="Position" id="position" required>
+                        <option value="" disabled selected>Select your position</option>
+                        <option value="Undergraduate student">Undergraduate student</option>
+                        <option value="PhD student">PhD student</option>
+                        <option value="Post doc">Post doc</option>
+                        <option value="Professor">Professor</option>
+                        <option value="Senior scientist">Senior scientist</option>
+                        <option value="PAT">PAT</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="Age">Age:</label>
+                    <input type="text" name="Age" id="Age" required>
+                </div>
+
+                <div>
+                    <label for="gender">Gender:</label>
+                    <input type="text" name="gender" id="gender" required>
+                </div>
+                <div>
+                    <label for="allergies">Food Allergies (Optional):</label>
+                    <input type="text" name="allergies" id="allergies" placeholder="Enter allergies (if any)">
+                </div>
+
+                <div>
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
     </main>
+</body>
+
     
+
     <main>
         <section id="image-section">
             <img src="BikeToWork.jpg" alt="Greener Biophore Image">
@@ -113,3 +120,4 @@
 </body>
 </html>
 
+<button class="register-btn">Register</button>
