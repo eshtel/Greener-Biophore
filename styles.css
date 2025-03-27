@@ -1,21 +1,41 @@
 /* General Styling */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0.5;
+    padding: 0.5;
     text-align: center;
-    color: #5f7754; /* Deep Forest Green text */
+    color: #6B7D60; /* Deep Forest Green text */
     background-color: #D7DCCC; /* White background */
 }
 
 /* Header Styling */
 header {
-    background-color: #D7DCCC; /* Soft Sage Green title background */
-    padding: 20px;
-    font-size: 24px;
+    background-color: #A9C0A9; /* Soft Sage Green title background */
+    padding: 0.2px;
+    font-size: 30px;
     font-weight: bold;
-    color: #5f7754; /* Deep Forest Green text */
+    color: #000000; /* Deep Forest Green text */
 }
+
+
+@font-face {
+    font-family: 'Avenir Light';
+    src: url('Avenir-Light.woff2') format('woff2'),
+         url('Avenir-Light.woff') format('woff'); 
+    font-weight: 300;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Avenir Light', Arial, sans-serif;
+}
+
 
 /* Navigation Menu */
 nav {
@@ -37,14 +57,14 @@ nav a {
     padding: 12px 20px;
     font-size: 18px;
     font-weight: bold;
-    color: #5f7754; /* Deep Forest Green text */
+    color: #6B7D60; /* Deep Forest Green text */
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Hover Effects for Each Tab */
 nav a:hover {
-    background-color: #5f7754; /* Warm Ochre on hover */
+    background-color: #6B7D60; /* Warm Ochre on hover */
     color: white; /* Change text color to white on hover */
 }
 
@@ -55,8 +75,8 @@ main {
 
 /* Buttons (Like "Register") */
 button {
-    background-color: #d4b446; /* Golden Yellow */
-    color: #5f7754; /* Deep Forest Green text */
+    background-color: #EFE0C2; /* Golden Yellow */
+    color: #6B7D60; /* Deep Forest Green text */
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
@@ -65,7 +85,7 @@ button {
 }
 
 button:hover {
-    background-color: #c28636; /* Warm Ochre */
+    background-color: #EFE0C2; /* Warm Ochre */
 }
 
 form {
@@ -108,7 +128,7 @@ input, select {
 button {
     font-size: 18px;
     padding: 10px 15px;
-    background-color: #b2b999; /* Soft Sage Green */
+    background-color: #A9C0A9; /* Soft Sage Green */
     border: none;
     cursor: pointer;
     display: block;
@@ -118,7 +138,7 @@ button {
 #countdown-section {
     margin-top: 30px;
     padding: 20px;
-    background-color: #a79da9; /* Muted Lavender */
+    background-color: #C4BDD2; /* Muted Lavender */
     border-radius: 10px;
     display: inline-block;
     color: white; /* Set text color to white */
@@ -163,7 +183,7 @@ body {
 button {
     padding: 12px 24px;
     font-size: 18px;
-    background-color: #007BFF;
+    background-color: #EFE0C2;
     color: white;
     border: none;
     cursor: pointer;
@@ -188,7 +208,7 @@ button:hover {
 
 
 footer {
-    background-color: #D7DCCC; /* Light gray background */
+    background-color: #6B7D60; /* Light gray background */
     padding: 20px; /* Add space inside the banner */
     text-align: center; /* Center the logo */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
@@ -200,7 +220,7 @@ footer {
 
 
 .content-box {
-    background-color: #a79da9; 
+    background-color: #C4BDD2; 
     color: white; 
     font-size: 18px;
     padding: 20px; /* Adds space inside the box */
@@ -213,7 +233,7 @@ footer {
 
 
 .program-box {
-    background-color: #F1E8F1; /* Light grayish-purple background */
+    background-color: #C4BDD2; /* Light grayish-purple background */
     color: black; /* White text */
     font-size: 18px;
     padding: 20px; /* Adds space inside the box */
@@ -253,7 +273,7 @@ input, select {
 
 button {
     padding: 12px 20px;
-    background-color: #4CAF50; /* Green background for the button */
+    background-color: #A9C0A9; /* Green background for the button */
     color: white;
     border: none;
     border-radius: 5px;
@@ -261,13 +281,13 @@ button {
 }
 
 button:hover {
-    background-color: #c28636; /* Darker green on hover */
+    background-color: #EFE0C2; /* Darker green on hover */
 }
 
 
 /* Register Button in Navigation Styling */
 .register-link {
-    background-color: #c28636; /* Green background for the Register link */
+    background-color: #6B7D60; /* Green background for the Register link */
     color: white; /* White text */
     padding: 12px 20px;
     font-size: 18px;
@@ -279,6 +299,6 @@ button:hover {
 
 /* Hover Effects for Register Button */
 .register-link:hover {
-    background-color: #c28636; /* Darker green on hover */
+    background-color: #EFE0C2; /* Darker green on hover */
     color: white; /* Ensure text remains white on hover */
 }
