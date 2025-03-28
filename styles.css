@@ -221,7 +221,7 @@ footer {
 
 .content-box {
     background-color: #C4BDD2; 
-    color: white; 
+    color: rgb(0, 0, 0); 
     font-size: 18px;
     padding: 20px; /* Adds space inside the box */
     border-radius: 10px; /* Rounds the corners */
