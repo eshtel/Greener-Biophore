@@ -141,13 +141,13 @@ button {
     background-color: #C4BDD2; /* Muted Lavender */
     border-radius: 10px;
     display: inline-block;
-    color: white; /* Set text color to white */
+    color: rgb(0, 0, 0); /* Set text color to white */
 }
 
 #countdown {
     font-size: 24px;
     font-weight: bold;
-    color: white; /* Set countdown text color to white */
+    color: rgb(0, 0, 0); /* Set countdown text color to white */
     padding: 10px;
 }
 
@@ -244,6 +244,18 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
 }
 
+
+.flyer-box {
+    background-color: #C4BDD2; /* Light grayish-purple background */
+    color: black; /* White text */
+    font-size: 18px;
+    padding: 5px; /* Adds space inside the box */
+    border-radius: 10px; /* Rounds the corners */
+    margin: 1px auto; /* Centers the box and adds space around */
+    max-width: 300px; /* Limits width for better readability */
+    text-align: center; /* Centers text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
 
 .form-container {
     background-color: #F1E8F1; /* Light gray background color */
