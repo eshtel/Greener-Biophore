@@ -314,3 +314,117 @@ button:hover {
     background-color: #EFE0C2; /* Darker green on hover */
     color: white; /* Ensure text remains white on hover */
 }
+
+
+/* ================================
+   Report & Annex Download Styling
+   ================================ */
+
+#downloads {
+  text-align: center;
+  margin: 50px auto;
+  padding: 30px;
+  max-width: 800px;
+  background-color: #F1E8F1; /* Soft neutral lavender background */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Main report button */
+.pdf-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #A9C0A9; /* Soft Sage Green */
+  color: #000000; /* Black text for contrast */
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+.pdf-btn:hover {
+  background-color: #6B7D60; /* Deep Forest Green on hover */
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Annex list container */
+.annex-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 20px auto 0;
+  text-align: left;
+}
+
+/* Each annex item */
+.annex-list li {
+  margin: 10px 0;
+  padding: 10px 15px;
+  background-color: #D7DCCC; /* Light sage background for list items */
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Hover animation */
+.annex-list li:hover {
+  background-color: #C4BDD2; /* Muted lavender hover */
+  transform: scale(1.02);
+}
+
+/* Annex links */
+.annex-list a {
+  text-decoration: none;
+  color: #000000; /* Black text for readability */
+  font-weight: 500;
+}
+
+.annex-list a:hover {
+  color: #6B7D60; /* Deep Forest Green hover */
+}
+
+/* ================================
+   Centered Report & Annex Section
+   ================================ */
+
+/* Center the annex list items */
+.annex-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 20px auto 0;
+  text-align: center; /* Changed from left to center */
+}
+
+.annex-list li {
+  margin: 10px 0;
+  padding: 10px 15px;
+  background-color: #D7DCCC; /* Light sage background for list items */
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center; /* Ensure text inside each item is centered */
+}
+
+#downloads {
+    position: relative; /* ensures positioning context */
+    left: 50%;          /* move the left edge to the center */
+    transform: translateX(-50%); /* shift back by half its width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 60px;
+    padding: 40px;
+    width: 800px; /* fixed width ensures centering works */
+    
+    text-align: center;
+    border-radius: 15px;
+    background: rgba(241, 232, 241, 0.80);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
